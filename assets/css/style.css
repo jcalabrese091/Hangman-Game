@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+body {
+	background-image: url("../images/plasma.jpg");
+	padding: 40px;
+}
+div{
+	color: pink;
+	text-align: center;
+}
+h1{
+	color: blue;
+	text-align: center;
+	padding-top:100px;
+	padding-bottom:50px;
+}
+.content {
+    position:relative;
+    width:850px;
+    height: 100%;
+    margin: 0 auto;
+}
+.text{
+	margin: 20px;
+}
+@media screen and (max-width: 768px){
+  body {
+    background-color: lightgrey;
+    height: 100%;
+  }
+  }
+@media screen and (max-width: 980px){
+  body {
+    background-color: lightgrey;
+    height: 100%;
+  }
+  .wrapper {
+    width: 800px;
+  }
+@media screen and (max-width: 640px){
+  body {
+    background-color: lightgrey;
+    height: 100%;
+  }
+  .wrapper {
+    width: 500px;
+  }
+}
